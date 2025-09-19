@@ -7,6 +7,7 @@ import { PricingSection } from "@/components/pricing-section"
 import { FAQSection } from "@/components/faq-section"
 import { WaitlistSection } from "@/components/waitlist-section"
 import { Footer } from "@/components/footer"
+import { TabSection } from "@/components/tab-section"
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <main className="px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <HeroSection />
+          /* <TabSection />   여기에 추가 */
           <FeaturesSection />
           <ValuePropositionSection />
           <DemoSection />
