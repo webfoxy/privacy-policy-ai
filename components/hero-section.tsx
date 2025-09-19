@@ -10,8 +10,9 @@ export function HeroSection() {
 
   return (
     <>
-      <section id="home" className="relative py-20 lg:py-32 bg-gradient-to-b from-background to-muted/30">
-        <div className="mx-auto max-w-4xl text-center">
+      <section id="home" className="relative py-20 lg:py-32 bg-[url('/hero-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-muted/70"></div>
+        <div className="relative mx-auto max-w-4xl text-center">
           <div className="mb-8 flex justify-center">
             <div className="flex items-center space-x-4">
               <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 border border-primary/20">
@@ -26,7 +27,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <h1 className="mb-6 text-4xl font-bold tracking-tight text-balance lg:text-6xl">
+          <h1 className="mb-6 text-4xl font-bold tracking-tight text-balance lg:text-6xl font-paperlogy">
             AI가 점검하는 <br />
             <span className="text-primary">개인정보처리방침</span>
           </h1>
